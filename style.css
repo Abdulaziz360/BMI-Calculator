@@ -1,0 +1,40 @@
+body{
+    background-color: #7c7979;
+    color: #000000;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"]{
+   display: inline-block;
+   width: 130px;
+   outline: none;
+    /* margin-top:2px; */
+
+}
+.btn{
+   /* display inline-block; */
+   width:50%;
+   margin-top: 2px;
+   margin-left:112px;  
+   text-align: center;
+   outline: none;
+   cursor: pointer;
+}
+#results{
+    position: fixed;
+    top:230px;
+    /* border: 1px solid rgb(10, 10, 10); */
+    width:30%;
+    height:30px;
+   
+}
+.weight-guide{
+    position: fixed;
+    top:270px;  
+}
